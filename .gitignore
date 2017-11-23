@@ -1,4 +1,3 @@
 .config/chromium/*
 .config/menus/*
-.config/
 .vim/plugged
