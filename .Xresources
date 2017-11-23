@@ -1,0 +1,15 @@
+! URxvt colors
+
+URxvt*foreground: white
+URxvt*background: black
+
+! Set Anti-Alias true
+
+URxvt.xftAntialias: true
+
+! Fonts
+
+URxvt.font: xft:inconsolata:pixelsize=16:antialias=true:hinting=true
+URxvt.boldFont: xft:inconsolata:pixelsize=16:antialias=true:hinting=true
+URxvt.italicFont: xft:inconsolata:pixelsize=16:antialias=true:hinting=true
+URxvt.bolditalicFont: xft:inconsolata:pixelsize=16:antialias=true:hinting=true
