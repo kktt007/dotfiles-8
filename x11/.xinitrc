@@ -24,7 +24,7 @@ if [ -f "$usermodmap" ]; then
 fi
 
 # Load Xresources
-xrdb /home/sivasama/.config/.Xresources
+xrdb /home/sivasama/.Xdefaults
 
 # Load i3
 exec i3
