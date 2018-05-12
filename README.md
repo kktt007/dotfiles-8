@@ -42,10 +42,13 @@ Minimalistic dotfile configuration.
 
 Included configurations for 
 
-* [i3](https://github.com/sivasama/dotfiles/blob/master/.config/i3/config)
-* [rxvt-unicode](https://github.com/sivasama/dotfiles/blob/master/.config/.Xresources)
-* [polybar](https://github.com/sivasama/dotfiles/blob/master/.config/polybar/)
-* [vim](https://github.com/sivasama/dotfiles/blob/master/.vimrc)
+* [i3](https://github.com/sivasama/dotfiles/blob/master/i3/.config/i3/config)
+* [rxvt-unicode](https://github.com/sivasama/dotfiles/blob/master/urxvt/.Xdefaults)
+* [polybar](https://github.com/sivasama/dotfiles/tree/master/polybar/.config/polybar)
+* [vim](https://github.com/sivasama/dotfiles/blob/master/vim/.vimrc)
+* [bash](https://github.com/sivasama/dotfiles/tree/master/bash)
+* [feh](https://github.com/sivasama/dotfiles/blob/master/feh/.fehbg)
+* [alsa](https://github.com/sivasama/dotfiles/blob/master/alsa/.asoundrc)
 
 
 
