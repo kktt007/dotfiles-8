@@ -1,0 +1,15 @@
+! URxvt colors
+
+URxvt*foreground: Misty Rose
+URxvt*background: black
+
+! Transparency
+URxvt.transparent: true
+URxvt.shading: 15
+
+! Fonts
+
+URxvt*font: xft:Hack:pixelsize=14:hinting=true
+
+! Disable URxvt scrollbar
+URxvt.scrollBar: false
