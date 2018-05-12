@@ -1,6 +1,11 @@
 # dotfiles
 
-Minimalistic dotfile configuration.
+Minimalistic dotfile configuration managed using [GNU Stow](https://www.gnu.org/software/stow/) .
+
+Clone this repository and use the helper script ```link.sh``` to generate the symlinks.
+
+If you prefer to do it manually then you could just use 
+``` stow [directory name] ```, to generate the symlink for the particular directory
 
 ## Preview
 ---
