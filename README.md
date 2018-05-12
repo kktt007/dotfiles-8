@@ -62,4 +62,4 @@ Included configurations for
 
 ---
 
-Checkout [assets](https://github.com/sivasama/dotfiles/tree/master/.assets) for all wallpapers included in the config.
+Checkout [assets](https://github.com/sivasama/dotfiles/tree/master/assets/.assets) for all wallpapers included in the config.
