@@ -276,7 +276,7 @@ format-charging-underline = ${colors.primary}
 
 format-discharging-prefix = BAT
 format-discharging-prefix-foreground = ${colors.secondary}
-format-discharging = BAT<animation-discharging> <label-discharging>
+format-discharging = <animation-discharging> <label-discharging>
 format-discharging-underline = ${self.format-charging-underline}
 
 format-full-prefix = "BAT "
