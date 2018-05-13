@@ -1,4 +1,4 @@
 rofi.combi-modi: window,drun,ssh
-rofi.theme: Pop-Dark
-rofi.font: Hack 12
+rofi.theme: arthur
+rofi.font: DejaVu Sans Mono 13
 rofi.modi: combi
