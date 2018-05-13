@@ -1,15 +1,15 @@
 ! URxvt colors
 
-URxvt*foreground: Misty Rose
+URxvt*foreground: light pink
 URxvt*background: black
 
 ! Transparency
 URxvt.transparent: true
-URxvt.shading: 15
+URxvt.shading: 10
 
 ! Fonts
 
-URxvt*font: xft:Hack:pixelsize=14:hinting=true
+URxvt*font: xft:Hack:size=11:antialias=true:hinting=true
 
 ! Disable URxvt scrollbar
 URxvt.scrollBar: false
