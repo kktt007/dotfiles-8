@@ -9,7 +9,7 @@ URxvt.shading: 10
 
 ! Fonts
 
-URxvt*font: xft:Hack:size=11:antialias=true:hinting=true
+URxvt*font: xft:Hack:size=10:antialias=true:hinting=true
 
 ! Disable URxvt scrollbar
 URxvt.scrollBar: false
