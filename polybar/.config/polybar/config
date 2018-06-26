@@ -16,7 +16,7 @@ foreground = #ffffff
 foreground-alt = #fff
 
 primary = #e64000
-secondary = #e75480
+secondary = #ffa500
 alert = #bd2c40
 
 [bar/bar1]
