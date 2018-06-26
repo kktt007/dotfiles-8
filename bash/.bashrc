@@ -8,7 +8,7 @@
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
-LS_COLORS=$LS_COLORS:'di=0;35:'
+LS_COLORS=$LS_COLORS:'di=0;37:'
 export LS_COLORS
 
 export NVM_DIR="$HOME/.nvm"
