@@ -1,6 +1,6 @@
 ! URxvt colors
 
-URxvt*foreground: light pink
+URxvt*foreground: #ffa500
 URxvt*background: black
 
 ! Transparency
