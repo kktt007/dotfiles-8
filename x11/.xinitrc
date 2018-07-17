@@ -26,7 +26,8 @@ fi
 # Load Xresources
 xrdb /home/sivasama/.Xdefaults
 
+# Set x11 display environment
+systemctl --user import-environment DISPLAY
+
 # Load i3
 exec i3
-
-
