@@ -164,16 +164,16 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # colors
-client.focused          #e40002 #285577 #ffffff #2e9ef4   #454485
-client.focused_inactive #e40002 #5f676a #ffffff #484e50   #454485
-client.unfocused        #e40002 #222222 #888888 #292d2e   #454485
+client.focused          #e40002 #285577 #ffffff #454485   #454485
+client.focused_inactive #e40002 #5f676a #ffffff #454485   #454485
+client.unfocused        #e40002 #222222 #888888 #454485   #454485
 
 # polybar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # Gaps 
-gaps inner 20
-gaps outer 10
+gaps inner 30
+gaps outer 20
 
 
 # Set borders
