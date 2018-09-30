@@ -24,10 +24,14 @@ if [ -f "$usermodmap" ]; then
 fi
 
 # Load Xresources
-xrdb /home/sivasama/.Xdefaults
+xrdb /home/sivasama/.Xresources
 
 # Set x11 display environment
 systemctl --user import-environment DISPLAY
 
 # Load i3
 exec i3
+
+# Load fonts
+xset +fp /home/sivasama/.fonts
+xset fp rehash
