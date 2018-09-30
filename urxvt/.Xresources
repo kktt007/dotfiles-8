@@ -1,11 +1,11 @@
 ! URxvt colors
-
-URxvt*foreground: #ffa500
-URxvt*background: black
+!
+URxvt*foreground: #838b83
 
 ! Transparency
-URxvt.transparent: true
-URxvt.shading: 10
+
+URxvt*transparent: true
+URxvt*shading: 8
 
 ! Fonts
 
