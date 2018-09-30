@@ -9,7 +9,7 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
-set $mod Mod4
+set $mod Mod1
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -163,20 +163,24 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-# Polybar
+# colors
+client.focused          #e40002 #285577 #ffffff #2e9ef4   #454485
+client.focused_inactive #e40002 #5f676a #ffffff #484e50   #454485
+client.unfocused        #e40002 #222222 #888888 #292d2e   #454485
+
+# polybar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # Gaps 
 gaps inner 20
-gaps outer 5
+gaps outer 10
 
-# Smart borders
-smart_borders on
 
-# Hide window bar
+# Set borders
 
-for_window [class="^.*"] border pixel 1
-new_window 1pixel
+for_window [class="^.*"] border pixel 4
+hide_edge_borders none
 
 # Wallpaper
-exec --no-startup-id feh --bg-fill $HOME/.assets/background.jpg
+exec --no-startup-id feh --bg-fill $HOME/.assets/background
+
