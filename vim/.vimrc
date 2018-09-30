@@ -1,7 +1,7 @@
 " VIM configuration file
 " 
 " Maintainer : Siva R
-" Last change : 12-05-2018
+" Last change : 30-09-2018
 
 
 set number
@@ -17,3 +17,15 @@ set textwidth=120
 
 set autoindent
 filetype plugin indent on
+
+" Vim plug
+
+call plug#begin('~/.vim/plugged')
+
+Plug 'morhetz/gruvbox'
+
+call plug#end()
+
+" Set colorscheme
+let g:gruvbox_italic=1
+colorscheme gruvbox
