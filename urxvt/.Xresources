@@ -1,6 +1,6 @@
 ! URxvt colors
 
-URxvt*foreground: #6f738d
+URxvt*foreground: #fdfdfd
 URxvt*background: black
 
 ! Fonts
