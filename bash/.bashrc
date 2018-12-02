@@ -12,10 +12,8 @@ reset=$(tput sgr0)
 alias ls='ls --color=auto'
 PS1='\[$bold\]\[$red\][\u@\h \W]\$\[$reset\]\[$reset\] '
 
-LS_COLORS=$LS_COLORS:'di=1;34'
+# DIRCOLORS config
+
+LS_COLORS=$LS_COLORS:'di=1;35'
 export LS_COLORS
 
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
